@@ -7,9 +7,9 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: "الرئيسية", href: "#" },
-  { label: "منتجاتنا", href: "#" },
-  { label: "خدماتنا", href: "#" },
+  { label: "الرئيسية", href: "/" },
+  { label: "منتجاتنا", href: "/#categories" },
+  { label: "خدماتنا", href: "/#services" },
 ];
 
 export function Navbar() {
@@ -47,7 +47,6 @@ export function Navbar() {
               key={link.label}
               href={link.href}
               className="hover:text-pink-500 transition-colors"
-              onClick={() => setOpen(false)}
             >
               {link.label}
             </a>

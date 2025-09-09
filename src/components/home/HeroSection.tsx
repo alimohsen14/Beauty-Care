@@ -19,7 +19,7 @@ export function HeroSection() {
           <span className="font-bold">Dandelion Beauty Care</span>، حيث يلتقي
           الفن بالعناية.
         </h3>
-        <button className="bg-yellow-700 hover:bg-yellow-800 text-white font-bold py-3 px-8 rounded transition-colors duration-200 shadow-lg">
+        <button className="bg-yellow-700 hover:bg-yellow-800 rounded-full text-white font-bold py-3 px-8 rounded transition-colors duration-200 shadow-lg">
           استكشفي مجموعتنا
         </button>
       </div>
