@@ -16,7 +16,7 @@ export function Navbar() {
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <nav className="flex justify-center items-center p-4 shadow-md relative">
+    <nav className="flex justify-center items-center p-4 shadow-md relative z-30">
       {/* Hamburger Button (Mobile) */}
       <button
         className="md:hidden flex justify-center items-center w-8 h-8"
@@ -33,6 +33,7 @@ export function Navbar() {
             key={link.label}
             href={link.href}
             className="hover:text-pink-500 transition-colors"
+            onClick={() => setOpen(false)} // سكّر القائمة بعد الكبس
           >
             {link.label}
           </a>
