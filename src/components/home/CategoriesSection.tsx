@@ -5,25 +5,25 @@ const categoriesData = [
     imageSrc: "/images/hand.png",
     title: "يدين",
     description: "عناية فائقة ليديك لتبقى ناعمة وشابة.",
-    link: "#",
+    link: "/category/hands",
   },
   {
     imageSrc: "/images/face.png",
     title: "وجه",
     description: "حلول متطورة لبشرة مشرقة وصحية.",
-    link: "#",
+    link: "/category/face",
   },
   {
     imageSrc: "/images/body.png",
     title: "جسم",
     description: "دللي بشرتك بمنتجاتنا التي تغذي وترطب بعمق.",
-    link: "#",
+    link: "/category/body",
   },
   {
     imageSrc: "/images/hair.png",
     title: "شعر",
     description: "مجموعة متكاملة للعناية بالشعر، تمنحه قوة ولمعانًا.",
-    link: "#",
+    link: "/category/hair",
   },
 ];
 
