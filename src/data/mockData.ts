@@ -95,3 +95,51 @@ export const allProductsData: Product[] = [
     imageSrc: "/images/hand.png",
   },
 ];
+export type Service = {
+  name: string;
+  description: string;
+  imageSrc: string;
+  price: number;
+};
+export const servicesData: Service[] = [
+  {
+    name: "جلسة العناية الكاملة بالبشرة",
+    description:
+      "تنظيف عميق، تقشير، ماسك مغذي وترطيب. استعيدي نضارة بشرتك في 60 دقيقة.",
+    imageSrc: "/images/service.png",
+    price: 350.0,
+  },
+  {
+    name: "مانيكير وباديكير كلاسيكي",
+    description:
+      "عناية احترافية لأظافر اليدين والقدمين مع طلاء أظافر من اختيارك.",
+    imageSrc: "/images/service.png",
+    price: 200.0,
+  },
+  {
+    name: "تركيب رموش فوليوم",
+    description:
+      "احصلي على نظرة جذابة وعيون أوسع مع رموش كثيفة وطبيعية المظهر.",
+    imageSrc: "/images/service.png",
+    price: 450.0,
+  },
+  {
+    name: "تسريحة شعر للمناسبات",
+    description: "تسريحات شعر عصرية وكلاسيكية تناسب جميع مناسباتك الخاصة.",
+    imageSrc: "/images/service.png",
+    price: 250.0,
+  },
+  {
+    name: "مساج استرخائي بالزيوت العطرية",
+    description: "تخلصي من التوتر والإرهاق مع جلسة مساج للجسم لمدة 50 دقيقة.",
+    imageSrc: "/images/service.png",
+    price: 300.0,
+  },
+  {
+    name: "صبغة شعر وتغيير لون",
+    description:
+      "استشارة متخصصة لاختيار اللون المثالي الذي يناسبك مع استخدام أفضل المنتجات.",
+    imageSrc: "/images/service.png",
+    price: 500.0,
+  },
+];
